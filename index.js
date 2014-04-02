@@ -14,8 +14,7 @@ module.exports = plugin;
  */
 
 function plugin (validator) {
-
-	var adapter = validator.adapter;
+  var adapter = validator.adapter;
   var el = adapter.el;
   var valid = adapter.valid;
   var invalid = adapter.invalid;
@@ -35,8 +34,8 @@ function plugin (validator) {
    */
 
   validator.invalid(function (view) {
-  	invalid.apply(adapter, arguments);
-  	var input = el(view);
+    invalid.apply(adapter, arguments);
+    var input = el(view);
     classes(input).add('error');
   });
 
