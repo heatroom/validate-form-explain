@@ -1,0 +1,19 @@
+{
+  "name": "validate-form-explain",
+  "repo": "heatroom/validate-form-explain",
+  "description": "A error message plugin for validate-form.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "validate",
+    "form",
+    "error",
+    "message"
+  ],
+  "dependencies": {
+    "component/classes": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
